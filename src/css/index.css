@@ -1,0 +1,28 @@
+body{
+ 
+  color:red;
+  background-color:#00ff00;
+
+}
+
+.b{
+ color:red;
+	
+}
+div{
+	color:red;
+}
+.img{
+    background-image: url(../images/photo.jpg);
+    width:466px;
+    height:453px;
+    display: flex;
+}
+.img1{
+    background-image: url(../images/a.jpg);
+    width:466px;
+    height:453px;
+      border-radius: 5px;
+}
+
+
