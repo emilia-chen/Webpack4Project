@@ -7,11 +7,19 @@
 
   </head>
   <body>
+<div>
+
+ <%=require('html-loader!./common.html')%>
+${ require('html-loader!./common.html') }
+</div>
+
     <div id='study'>
     </div>
    <div class="img"></div>
   <div class="img1"></div>
-<img src="./images/a.jpg"/>
+<img src="${ require(`./images/a.jpg`) }"/>
+ <img src="<%=require(`./images/a.jpg`)%>"/>
+ 
   </body>
   <!--      <script src="./main1.js"></script>
    <script src="./main2.js"></script> -->
