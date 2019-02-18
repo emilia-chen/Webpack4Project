@@ -21,8 +21,8 @@ var website ={
 module.exports = {
         mode:"development",
         entry:{
-        "main1":"./src/main.js", ////入口文件的配置项已多次提及的唯一入口文件
-        "main2":"./src/main1.js", ////入口文件的配置项已多次提及的唯一入口文件
+        "main":"./src/main.js", ////入口文件的配置项已多次提及的唯一入口文件
+        "main1":"./src/main1.js", ////入口文件的配置项已多次提及的唯一入口文件
         "b":"./src/b.js", ////入口文件的配置项已多次提及的唯一入口文件
         
          },

@@ -11,6 +11,6 @@
 */
 module.exports = function Greeter() {
   this.b=function(){
-  	console.log(__dirname+'3');
+  	console.log(__dirname+'3589');
   }
 }
